@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--~~~~~~~~~~~~~~~ favicon ~~~~~~~~~~~~~~~-->
+    <link
+      rel="shortcut icon"
+      href="./images/Hotel logo.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>SAYUU</title>
+
+    <style>
+      body {
+        background-image: url("../../images/bg1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        overflow-x: hidden;
+      }
+      .left {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 65vh;
+      }
+      .left h1 {
+        font-size: 40px;
+      }
+      .left .para {
+        color: white;
+        font-size: 40px;
+        margin-top: 10px;
+      }
+      .containt {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 3rem;
+        place-items: center;
+        padding: 20px;
+      }
+      .containt .images {
+        width: 70%;
+        height: 300px;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <div
+        class="logo"
+        style="font-family: Verdana, Geneva, Tahoma, sans-serif"
+      >
+        Sayu Restuarent
+      </div>
+      <div class="nav">
+        <a href="./file.html">Home</a>
+        <a href="./aboutus.html">About </a>
+        <a href="./menu.html">Menu</a>
+        <a href="./contactus.html">Contact </a>
+      </div>
+
+      <div class="search">
+        <i class="fa-solid fa-search"></i>
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+
+    <div class="heading">
+      <div class="left">
+        <p>Are You Hungry</p>
+        <h1>
+          "Indulge in Culinary Delights at SAYUU - Your Gateway to Exquisite
+          Dining Experiences!"
+        </h1>
+        <p class="para">Let's go to order your meal</p>
+
+        <a href="./menu.html">
+          <button>Check out Menu</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="containt">
+      <img src="../../images/bg1.jpg" alt="" class="images" />
+      <img src="../../images/bg2.jpg" alt="" class="images" />
+      <img src="../../images/bg3.jpg" alt="" class="images" />
+      <img src="../../images/bg4.jpg" alt="" class="images" />
+      <img src="../../images/bg5.jpg" alt="" class="images" />
+    </div>
+  </body>
+</html>
